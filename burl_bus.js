@@ -198,7 +198,7 @@ ref.on('value', (snapshot) => {
 
 var ref = firebase.database().ref("Station/next_staton")
 ref.on('value', (snapshot) => {
-    document.getElementById("imgS").src = "/img/" + snapshot.val().replace('"', '').replace('"', '') + ".jpg"
+    document.getElementById("imgS").src = "./img/" + snapshot.val().replace('"', '').replace('"', '') + ".JPG"
     document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('"', '').replace('"', '')
-        // console.log(snapshot.val() + ".jpg")
+    console.log(snapshot.val() + ".jpg")
 })
