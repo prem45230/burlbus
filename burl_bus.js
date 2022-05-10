@@ -191,7 +191,6 @@ var ref = firebase.database().ref("GPS")
 ref.on('value', (snapshot) => {
     console.log(snapshot.val())
     map.removeLayer(k)
-
     k = L.marker([snapshot.val()['f_latitude'], snapshot.val()['f_logitude']], { icon: greenIcon })
     k.addTo(map)
 })
@@ -200,7 +199,7 @@ ref.on('value', (snapshot) => {
 var ref = firebase.database().ref("Station/next_staton")
 ref.on('value', (snapshot) => {
     document.getElementById("imgS").src = "/img/" + snapshot.val().replace('"', '').replace('"', '') + ".jpg"
-    document.getElementById("nextS").innerHTML = "ป้ายต่อไป " + snapshot.val().replace('"', '').replace('"', '')
+    document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('"', '').replace('"', '')
     console.log(snapshot.val() + ".jpg")
 
 })
