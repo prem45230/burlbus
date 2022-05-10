@@ -198,8 +198,18 @@ ref.on('value', (snapshot) => {
 
 var ref = firebase.database().ref("Station/next_staton")
 ref.on('value', (snapshot) => {
-    document.getElementById("imgS").src = "/img/" + snapshot.val().replace('"', '').replace('"', '') + ".jpg"
-    document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('"', '').replace('"', '')
+    document.getElementById("imgS").src = "/img/" + snapshot.val().replace('01-A3', '02_A4').replace('02_A4', '03_UStore')
+        .replace('03_UStore', '04_B4-Canteen').replace('04_B4-Canteen', '05_Opposite-C6').replace('05_Opposite-C6', '06_Opposite-C1')
+        .replace('06_Opposite-C1', '07_Opposite-C4').replace('07_Opposite-C4', '08_Parking7').replace('08_Parking7', '09_C4')
+        .replace('09_C4', '10_C1').replace('10_C1', '11_C6').replace('11_C6', '12_B4').replace('12_B4', '13_Restarea1')
+        .replace('13_Restarea1', '14_A7').replace('14_A7', '01-A3') + ".jpg"
+    document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('01-A3', '02_A4').replace('02_A4', '03_UStore')
+        .replace('03_UStore', '04_B4-Canteen').replace('04_B4-Canteen', '05_Opposite-C6').replace('05_Opposite-C6', '06_Opposite-C1')
+        .replace('06_Opposite-C1', '07_Opposite-C4').replace('07_Opposite-C4', '08_Parking7').replace('08_Parking7', '09_C4')
+        .replace('09_C4', '10_C1').replace('10_C1', '11_C6').replace('11_C6', '12_B4').replace('12_B4', '13_Restarea1')
+        .replace('13_Restarea1', '14_A7').replace('14_A7', '01-A3')
+        // document.getElementById("imgS").src = "/img/" + snapshot.val().replace('"', '').replace('"', '') + ".jpg"
+        // document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('"', '').replace('"', '')
     console.log(snapshot.val() + ".jpg")
 
 })
