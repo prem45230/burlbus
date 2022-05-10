@@ -77,12 +77,20 @@ class bus_stop {
 
 
 var json_data = [
-    [14.039150487967367, 100.61346278036979, "01_A3", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/01-A3.jpg"],
-    [14.039150487967367, 100.61346278036979, "ssss", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png"],
-    [14.039541329706626, 100.61470581521034, "ssss", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png"],
-    [14.039541329706626, 100.61470581521034, "ssss", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png"],
-    [14.039541329706626, 100.61470581521034, "ssss", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png"],
-    [14.039541329706626, 100.61470581521034, "ssss", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png"],
+    [14.039541329706626, 100.61470581521034, "01_A3", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/01-A3.jpg"],
+    [14.039150487967367, 100.61346278036979, "02_A4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/02_A4.jpg"],
+    [14.03916513459508, 100.61197485913377, "03_UStore", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/03_UStore.jpg"],
+    [14.039880504296702, 100.61012359383339, "04_B4-Canteen", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/04_B4-Canteen.jpg"],
+    [14.038833787155323, 100.60787698050302, "05_Opposite-C6", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/05_Opposite-C6.jpg"],
+    [14.038895306647238, 100.6053548120963, "06_Opposite-C1", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/06_Opposite-C1.jpg"],
+    [14.039492927217239, 100.60406605077246, "07_Opposite_C4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/07_Opposite-C4.jpg"],
+    [14.039895308085635, 100.60179393750775, "08_Parking7", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/08_Parking7.jpg"],
+    [14.039736491421808, 100.60419343103723, "09_C4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/09_C4.jpg"],
+    [14.039029604788283, 100.60543084843573, "10_C1", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/10_C1.jpg"],
+    [14.039131581436505, 100.60782432945408, "11_C6", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/11_C6.jpg"],
+    [14.040038239486076, 100.61024102674446, "12_B4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/12_B4.jpg"],
+    [14.040030459676874, 100.61226192026709, "13_Restarea1", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/13_Restarea1.jpg"],
+    [14.040022427418055, 100.61402455358989, "14_A7", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/14_A7.jpg"],
 ]
 
 
