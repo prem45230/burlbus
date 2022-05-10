@@ -57,6 +57,15 @@ class bus_stop {
         })
     }
 
+
+    getImg() {
+        return this.img
+    }
+
+    setImg(img) {
+        this.img = img
+    }
+
     deploy() {
         this.element.addTo(map).bindPopup(`
         <div>
