@@ -73,7 +73,11 @@ class bus_stop {
             <p>${this.text}</p>
         </div>`);
     }
+    show() {
+        console.log("latitude :" + this.lat + " longitude :" + this.long)
+    }
 }
+
 
 
 var json_data = [
@@ -92,7 +96,6 @@ var json_data = [
     [14.040030459676874, 100.61226192026709, "13_Restarea1", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/13_Restarea1.jpg"],
     [14.040022427418055, 100.61402455358989, "14_A7", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/14_A7.jpg"],
 ]
-
 
 
 json_data.forEach(obj => {
