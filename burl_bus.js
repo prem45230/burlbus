@@ -74,8 +74,6 @@ class bus_stop {
         </div>`);
     }
 }
-
-
 var json_data = [
     [14.039541329706626, 100.61470581521034, "01_A3", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/01-A3.jpg"],
     [14.039150487967367, 100.61346278036979, "02_A4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/02_A4.jpg"],
