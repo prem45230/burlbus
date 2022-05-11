@@ -1,6 +1,6 @@
 var zoom = 10;
-var map = L.map('map').setView([14.040072750299245, 100.60450701776492], 16);
-L.tileLayer('https://api.maptiler.com/maps/openstreetmap/{z}/{x}/{y}@2x.jpg?key=WixGoIOLwNV1Z969nzli', {
+var map = L.map('map', { zoomControl: false }).setView([14.040072750299245, 100.60450701776492], 16);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
     tileSize: 512, //512
     zoomOffset: -1, //-1
     minZoom: 5,
@@ -74,6 +74,8 @@ class bus_stop {
         </div>`);
     }
 }
+
+
 var json_data = [
     [14.039541329706626, 100.61470581521034, "01_A3", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/01-A3.jpg"],
     [14.039150487967367, 100.61346278036979, "02_A4", "https://www.pinclipart.com/picdir/big/578-5781017_google-maps-bus-stop-icon-clipart.png", "https://imgz.io/images/2022/05/10/02_A4.jpg"],
@@ -197,6 +199,6 @@ ref.on('value', (snapshot) => {
 var ref = firebase.database().ref("Station/next_staton")
 ref.on('value', (snapshot) => {
     document.getElementById("imgS").src = "./img/" + snapshot.val().replace('"', '').replace('"', '') + ".JPG"
-    document.getElementById("nextS").innerHTML = "ป้ายต่อไป" + snapshot.val().replace('"', '').replace('"', '')
+    document.getElementById("nextS").innerHTML = "ป้ายต่อไป " + snapshot.val().replace('"', '').replace('"', '')
     console.log(snapshot.val() + ".jpg")
 })
